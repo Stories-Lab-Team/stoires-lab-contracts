@@ -24,8 +24,8 @@ contract StoryTellerFRC721 is ERC721URIStorage{
       string tokenURI
     );
 
-    constructor() ERC721("StoryTeller NFTs", "BAC") {
-      //console.log("Hello Fil-ders! Now creating Bacalhau FRC721 NFT contract!");
+    constructor() ERC721("StoryTeller NFTs", "STT") {
+      
     }
 
     function mintStoryTellerNFT(address owner, string memory ipfsURI)
